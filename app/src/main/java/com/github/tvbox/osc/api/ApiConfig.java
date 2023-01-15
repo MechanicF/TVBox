@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://nep.inkz/tv.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://nep.ink/tv.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
